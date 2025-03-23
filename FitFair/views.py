@@ -122,7 +122,3 @@ class APILoginView(APIView):
         else:
             #If the user credentials are not valid or the user does not exist on the system.
             return Response({'error': 'Invalid credentials'}, status=status.HTTP_401_UNAUTHORIZED)
-
-
-
-

@@ -1,4 +1,5 @@
 from django.test import TestCase
+<<<<<<< HEAD
 from .models import Meal
 from django.contrib.auth import get_user_model
 from datetime import date
@@ -69,3 +70,7 @@ class CustomUserModelTest(TestCase):
 
     
     
+=======
+
+# Create your tests here.
+>>>>>>> 16526d6 (Project Setup, app creation, Models, and serializers creation)
