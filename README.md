@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Tshedza-Django-Project
 
 # **FitFair**
@@ -29,3 +30,6 @@ The below are the steps to take when installing the app:
 3. *Styling*: HTML and CSS
 
 This project entails building an app to help track daily calorie intake.
+=======
+# Tshedza-Django-Project
+>>>>>>> 4aedea9 (Initial commit)
