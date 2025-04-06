@@ -1,5 +1,4 @@
-<<<<<<< HEAD
-<<<<<<< HEAD
+
 # Tshedza-Django-Project
 
 # **FitFair**
@@ -15,10 +14,6 @@ Individuals are becoming more cautious about what they consume due to a lot of i
 2. *Log meal page*:Log meals together with calories for a specific day.
 3. *Meal history*: A record of meals and calorie intake for the past days.
 
-**Installation**
-
-The below are the steps to take when installing the app:
-
 **Usage**
 
 1. *SignUp and Login*: Create a new account if one is a new user and start logging and tracking meals.
@@ -30,10 +25,24 @@ The below are the steps to take when installing the app:
 2. *Framework*: Django
 3. *Styling*: HTML and CSS
 
-This project entails building an app to help track daily calorie intake.
-=======
-# Tshedza-Django-Project
->>>>>>> 4aedea9 (Initial commit)
-=======
-# Tshedza-Django
->>>>>>> 1aa36a7df629012e33f0e6c980070d67f2e9d2d6
+**API Endpoints**
+
+1. *Register a user* :http://127.0.0.1:8000/tracker/register/
+   Method = POST
+2. *Login*: http://127.0.0.1:8000/tracker/login/
+   Method = POST
+   A token is generated
+4. *Log a meal* : POST http://127.0.0.1:8000/tracker/meals/
+   Method = POST
+   A token to log a meal.
+6. *Retrieve meals for a user*: http://127.0.0.1:8000/tracker/meals/
+   Method = GET.
+7. *Update a meal*: http://127.0.0.1:8000/tracker/meals/{meal_id}/
+   Method = PATCH OR PUT
+8. *Delete a meal*: http://127.0.0.1:8000/tracker/meals/{meal_id}/
+   Method = DELETE
+   Retrieve the meal first then delete.
+9. *Retrieve meal according to day and meal of the day*: http://127.0.0.1:8000/tracker/meals/?meal_of_the_day={meal_of_the_day}
+    Method = GET
+
+
