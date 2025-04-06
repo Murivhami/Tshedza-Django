@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 # Tshedza-Django-Project
 
 # **FitFair**
@@ -33,3 +34,6 @@ This project entails building an app to help track daily calorie intake.
 =======
 # Tshedza-Django-Project
 >>>>>>> 4aedea9 (Initial commit)
+=======
+# Tshedza-Django
+>>>>>>> 1aa36a7df629012e33f0e6c980070d67f2e9d2d6
