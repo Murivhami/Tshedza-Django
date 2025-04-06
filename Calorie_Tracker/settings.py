@@ -39,7 +39,6 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     'FitFair',
     'rest_framework',
-<<<<<<< HEAD
     'rest_framework.authtoken',
     'rest_framework_simplejwt.token_blacklist',
     'rest_framework_simplejwt',
@@ -57,8 +56,6 @@ REST_FRAMEWORK = {
 
 AUTHENTICATION_BACKENDS = [
     'django.contrib.auth.backends.ModelBackend',  # Default username-based authentication
-=======
->>>>>>> 16526d6 (Project Setup, app creation, Models, and serializers creation)
 ]
 
 MIDDLEWARE = [
@@ -73,20 +70,12 @@ MIDDLEWARE = [
 
 ROOT_URLCONF = 'Calorie_Tracker.urls'
 
-<<<<<<< HEAD
+
 import os
-
-
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
         'DIRS': [os.path.join(BASE_DIR / 'templates')],
-=======
-TEMPLATES = [
-    {
-        'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        'DIRS': [],
->>>>>>> 16526d6 (Project Setup, app creation, Models, and serializers creation)
         'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [
@@ -105,7 +94,6 @@ WSGI_APPLICATION = 'Calorie_Tracker.wsgi.application'
 # Database
 # https://docs.djangoproject.com/en/5.1/ref/settings/#databases
 
-<<<<<<< HEAD
 from pathlib import Path
 import os
 # Define BASE_DIR as a Path object
@@ -115,15 +103,8 @@ DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.sqlite3',
         'NAME': os.path.join(BASE_DIR / 'db.sqlite3'),
-=======
-DATABASES = {
-    'default': {
-        'ENGINE': 'django.db.backends.sqlite3',
-        'NAME': BASE_DIR / 'db.sqlite3',
->>>>>>> 16526d6 (Project Setup, app creation, Models, and serializers creation)
-    }
 }
-
+}
 
 # Password validation
 # https://docs.djangoproject.com/en/5.1/ref/settings/#auth-password-validators
@@ -150,13 +131,7 @@ AUTH_USER_MODEL = 'FitFair.CustomUser'
 # https://docs.djangoproject.com/en/5.1/topics/i18n/
 
 LANGUAGE_CODE = 'en-us'
-
-<<<<<<< HEAD
 TIME_ZONE = 'Africa/Johannesburg'
-=======
-TIME_ZONE = 'UTC'
->>>>>>> 16526d6 (Project Setup, app creation, Models, and serializers creation)
-
 USE_I18N = True
 
 USE_TZ = True
@@ -171,9 +146,5 @@ STATIC_URL = 'static/'
 # https://docs.djangoproject.com/en/5.1/ref/settings/#default-auto-field
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
-<<<<<<< HEAD
-
 LOGIN_REDIRECT_URL = 'meals/'
 LOGOUT_REDIRECT_URL = '/'
-=======
->>>>>>> 16526d6 (Project Setup, app creation, Models, and serializers creation)
